@@ -5,14 +5,14 @@ The challenges are organized by difficulty level, following the ranking system o
 
 ## Repository Structure
 
-- **`8kyu/`** — Beginner-level challenges, perfect for those just starting out.
-- **`7kyu/`** — Easy challenges for practicing basic programming concepts.
-- **`6kyu/`** — Intermediate-level challenges.
-- **`5kyu/`** — Advanced-level challenges.
-- **`4kyu/`** — For experienced developers.
-- **`3kyu/`** — Difficult challenges for professionals.
-- **`2kyu/`** — Very hard challenges for experts.
-- **`1kyu/`** — The most complex challenges on Codewars.
+- **`8kyu`** — Beginner-level challenges, perfect for those just starting out.
+- **`7kyu`** — Easy challenges for practicing basic programming concepts.
+- **`6kyu`** — Intermediate-level challenges.
+- **`5kyu`** — Advanced-level challenges.
+- **`4kyu`** — For experienced developers.
+- **`3kyu`** — Difficult challenges for professionals.
+- **`2kyu`** — Very hard challenges for experts.
+- **`1kyu`** — The most complex challenges on Codewars.
 
 Each folder contains files named after specific challenges, including their description and my solutions.
 
