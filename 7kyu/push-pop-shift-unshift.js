@@ -10,47 +10,8 @@
 // infiniteLoop( [[1,2],[3,4,5,6],[7,8,9,10]],"left",2) should return [[3,4],[5,6,7,8],[9,10,1,2]]
 
 // This is the first version, but it was unable to test it due node version in codewars
-// function infiniteLoop(arr, d, n) {
-//   const flatted = arr.flat();
-
-//   if (d === 'left') {
-//     for (let i = 0; i < n; i++) {
-//       const first = flatted.shift();
-//       flatted.push(first);
-//     }
-//   }
-
-//   if (d === 'right') {
-//     for (let i = 0; i < n; i++) {
-//       const last = flatted.pop();
-//       flatted.unshift(last);
-//     }
-//   }
-
-//   const restoredArr = [];
-//   let ind = 0;
-
-//   const lengths = arr.map(el => el.length);
-
-//   for (let length of lengths) {
-//     restoredArr.push(flatted.slice(ind, ind + length));
-//     ind += length;
-//   }
-
-//   return restoredArr;
-// }
-
-// And this is the second version which doesn`t use float() method
-function flattenArray(arr) {
-  return arr.reduce(
-    (acc, val) =>
-      Array.isArray(val) ? acc.concat(flattenArray(val)) : acc.concat(val),
-    []
-  );
-}
-
 function infiniteLoop(arr, d, n) {
-  const flatted = flattenArray(arr); // используем собственную функцию для "уплощения" массива
+  const flatted = arr.flat();
 
   if (d === 'left') {
     for (let i = 0; i < n; i++) {
@@ -78,3 +39,54 @@ function infiniteLoop(arr, d, n) {
 
   return restoredArr;
 }
+
+console.log(
+  infiniteLoop(
+    [
+      [1, 2, 3],
+      [4, 5],
+      [6, 7, 8, 9],
+    ],
+    'left',
+    2
+  )
+);
+
+// And this is the second version which doesn`t use float() method
+// function flattenArray(arr) {
+//   return arr.reduce(
+//     (acc, val) =>
+//       Array.isArray(val) ? acc.concat(flattenArray(val)) : acc.concat(val),
+//     []
+//   );
+// }
+
+// function infiniteLoop(arr, d, n) {
+//   const flatted = flattenArray(arr); // используем собственную функцию для "уплощения" массива
+
+//   if (d === 'left') {
+//     for (let i = 0; i < n; i++) {
+//       const first = flatted.shift();
+//       flatted.push(first);
+//     }
+//   }
+
+//   if (d === 'right') {
+//     for (let i = 0; i < n; i++) {
+//       const last = flatted.pop();
+//       flatted.unshift(last);
+//     }
+//   }
+
+//   const restoredArr = [];
+//   let ind = 0;
+
+//   const lengths = arr.map(el => el.length);
+
+//   for (let length of lengths) {
+//     restoredArr.push(flatted.slice(ind, ind + length));
+//     ind += length;
+//   }
+
+//   return restoredArr;
+// }
