@@ -5,14 +5,14 @@ The challenges are organized by difficulty level, following the ranking system o
 
 ## Repository Structure
 
-- **`8kyu`** — Beginner-level challenges, perfect for those just starting out.
-- **`7kyu`** — Easy challenges for practicing basic programming concepts.
-- **`6kyu`** — Intermediate-level challenges.
-- **`5kyu`** — Advanced-level challenges.
-- **`4kyu`** — For experienced developers.
-- **`3kyu`** — Difficult challenges for professionals.
-- **`2kyu`** — Very hard challenges for experts.
-- **`1kyu`** — The most complex challenges on Codewars.
+- **`8-kyu`** — Beginner-level challenges, perfect for those just starting out.
+- **`7-kyu`** — Easy challenges for practicing basic programming concepts.
+- **`6-kyu`** — Intermediate-level challenges.
+- **`5-kyu`** — Advanced-level challenges.
+- **`4-kyu`** — For experienced developers.
+- **`3-kyu`** — Difficult challenges for professionals.
+- **`2-kyu`** — Very hard challenges for experts.
+- **`1-kyu`** — The most complex challenges on Codewars.
 
 Each folder contains files named after specific challenges, including their description and my solutions.
 
@@ -32,6 +32,9 @@ This repository serves several purposes:
 1. Select the difficulty level folder (`8kyu`, `7kyu`, etc.).
 2. Find the file with the challenge you're interested in.
 3. Review the challenge description and solution.
+
+## Great thanks to [CodeHub](https://chromewebstore.google.com/detail/codehub/gadnnalppjchhdpplcjkhfabddchhlkp) for saving my time!
+Here's a repo that shows how to use this extension [CodeHub repo](https://github.com/febinbellamy/CodeHub)
 
 ## Contact
 
