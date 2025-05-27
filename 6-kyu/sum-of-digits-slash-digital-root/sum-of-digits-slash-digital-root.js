@@ -1,9 +1,6 @@
-function digitalRoot(num) {
-  let sum = num
-    .toString()
-    .split('')
-    .map(Number)
-    .reduce((sum, el) => sum + el, 0);
-​
-  return sum < 10 ? sum : digitalRoot(sum);
+function digitalRoot(n) {
+  while (n >= 10) {
+    n = n.toString().split('').reduce((sum, digit) => sum + +digit, 0);
+  }
+  return n;
 }
