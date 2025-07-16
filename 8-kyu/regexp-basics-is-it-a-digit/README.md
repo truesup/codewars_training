@@ -1,0 +1,1 @@
+<h2><a href=https://www.codewars.com/kata/567bf4f7ee34510f69000032/train/javascript target="_blank">Regexp Basics - is it a digit?</a></h2><h3>8 kyu</h3><p>Implement <code>String#digit?</code> (in Java <code>StringUtils.isDigit(String)</code>), which should return <code>true</code> if given object is a single digit (0-9), <code>false</code> otherwise.</p>
