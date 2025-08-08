@@ -1,0 +1,1 @@
+<h2><a href=https://www.codewars.com/kata/57a386117cb1f31890000039/train/javascript target="_blank">Parse float</a></h2><h3>8 kyu</h3><p>Write function <code>parseF</code> which takes an input and returns a number or null if conversion is not possible. The input can be one of many different types so be aware.</p>
