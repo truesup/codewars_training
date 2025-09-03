@@ -1,0 +1,1 @@
+<h2><a href=https://www.codewars.com/kata/5831c204a31721e2ae000294/train/javascript target="_blank">Changing letters</a></h2><h3>7 kyu</h3><p>When provided with a String, capitalize all vowels</p><p>For example:</p><p>Input : "Hello World!"</p><p>Output : "HEllO WOrld!"</p><p>Note: Y is not a vowel in this kata.</p>
