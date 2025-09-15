@@ -1,0 +1,1 @@
+<h2><a href=https://www.codewars.com/kata/5c44b0b200ce187106452139/train/javascript target="_blank">How many arguments</a></h2><h3>7 kyu</h3><p>Write a function that returns the number of arguments it received.</p><pre><code>args_count() --&gt; 0args_count('a') --&gt; 1args_count('a', 'b') --&gt; 2</code></pre>
