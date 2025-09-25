@@ -1,0 +1,1 @@
+<h2><a href=https://www.codewars.com/kata/51f41b98e8f176e70d0002a8/train/javascript target="_blank">Sort arrays - 1</a></h2><h3>7 kyu</h3><p>Just a simple sorting usage. Create a function that returns the elements of the input-array / list sorted in lexicographical order.</p>
