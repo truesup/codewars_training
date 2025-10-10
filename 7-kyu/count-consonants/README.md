@@ -1,0 +1,1 @@
+<h2><a href=https://www.codewars.com/kata/564e7fc20f0b53eb02000106/train/javascript target="_blank">Count consonants</a></h2><h3>7 kyu</h3><p>Complete the function that takes a string of English-language text and returns the number of consonants in the string.</p><p>Consonants are all letters used to write English excluding the vowels <code>a, e, i, o, u</code>.</p>
