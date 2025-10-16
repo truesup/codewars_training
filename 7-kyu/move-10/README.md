@@ -1,0 +1,1 @@
+<h2><a href=https://www.codewars.com/kata/57cf50a7eca2603de0000090/train/javascript target="_blank">Move 10</a></h2><h3>7 kyu</h3><p>Move every letter in the provided string forward 10 letters through the alphabet.</p><p>If it goes past 'z', start again at 'a'.</p><p>Input will be a string with length &gt; 0.</p>
