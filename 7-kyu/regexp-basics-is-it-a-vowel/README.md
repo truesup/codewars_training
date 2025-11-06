@@ -1,0 +1,1 @@
+<h2><a href=https://www.codewars.com/kata/567bed99ee3451292c000025/train/javascript target="_blank">Regexp Basics - is it a vowel?</a></h2><h3>7 kyu</h3><p>Implement the function which should return <code>true</code> if given object is a vowel (meaning <code>a, e, i, o, u</code>, uppercase or lowercase), and <code>false</code> otherwise.</p>
