@@ -36,9 +36,3 @@ This repository serves several purposes:
 ## Great thanks to [CodeHub](https://chromewebstore.google.com/detail/codehub/gadnnalppjchhdpplcjkhfabddchhlkp) for saving my time!
 Here's a repo that shows how to use this extension [CodeHub repo](https://github.com/febinbellamy/CodeHub)
 
-## Contact
-
-If you have questions or suggestions, feel free to reach out:
-- [Telegram](https://www.t.me/p_mrkn)
-- [LinkedIn](https://www.linkedin.com/in/pavel-merekin)
-
