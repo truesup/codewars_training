@@ -1,0 +1,1 @@
+<h2><a href=https://www.codewars.com/kata/514a3996d22ce03198000003/train/javascript target="_blank">Mr. Freeze</a></h2><h3>8 kyu</h3><p>There is an object/class already created called MrFreeze.  Mark this object as frozen so that no other changes can be made to it. </p>
