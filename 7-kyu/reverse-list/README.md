@@ -1,0 +1,1 @@
+<h2><a href=https://www.codewars.com/kata/57a04da9e298a7ee43000111/train/javascript target="_blank">Reverse list</a></h2><h3>7 kyu</h3><p>Write reverseList function that simply reverses lists.</p>
